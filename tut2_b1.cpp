@@ -60,7 +60,7 @@ void draw_4(float r){ // ve~ cac duong tron tiep xuc nhau + thang hang+ r2=r1/2.
 	}
 	else{
 		for (int i = 1; 2*i <= r; i++){
-			setViewport(600*(2*i-1)/r-300, 600*(2*i-1)/r +300, 0, HEIGHT); // qy luat
+			setViewport(WIDTH*(2 * i - 1) / r - WIDTH / 2, WIDTH * (2 * i - 1) / r + WIDTH/2, 0, HEIGHT);
 			setCameraVolume(-r, r, -r, r);
 			drawFigure();
 			setCameraVolume(-r, r, r, -r);
