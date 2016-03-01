@@ -29,9 +29,6 @@ void CreateSphere(int nStacks, int nSlices, float R){
 			y = R*sin(u + PI / nSlices);
 			glVertex3f(x, y, z);
 
-			
-			//glColor3f(0, 0, 0); 
-			
 		}
 		glEnd();
 
